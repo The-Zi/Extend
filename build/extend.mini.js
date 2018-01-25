@@ -1,0 +1,1 @@
+function extend(t,o){if("function"==typeof t&&"function"==typeof o){var e=function(){};e.prototype=o.prototype,t.prototype=new e,t.prototype.constructor=t,t.uber=Parent.prototype}}
